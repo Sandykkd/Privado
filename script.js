@@ -49,7 +49,7 @@ window.onload = function () {
       sec = 0;
       appendsec.innerHTML = "0" + 0;
     }
-    if (min === 1) {
+    if (min === 5) {
       appendmin.innerHTML = "0" + min;
       checkbtn.innerHTML = "Reset";
       clearInterval(Interval);
