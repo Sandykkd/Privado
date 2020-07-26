@@ -1,12 +1,16 @@
-Problem 1: Create a Timer using JS, HTML and CSS
-The UI will have three components.
-a.	Text Label at the top: “Privado Timer”
-b.	Time Label: Displays the time in “MM:SS” format. Minimum: 00:00, Maximum: 05:00. The “Maximum” value should be configurable.
-c.	Button: Three states ( Start, Pause, Reset )
+Title: Privado Timer 
+
+Description: User should be able to use the start/pause/reset button for timer purposes.
 
 
-When the user loads the UI, the default page is visible. It has a text label, time label (00:00) and a button ( start ). 
-1.	When the user clicks on the “Start” button, the timer starts. The button label changes from “Start” to “Pause”. 
-2.	When the user clicks on the “Pause” button, the button label should change to “Start” and the timer should be paused.
-3.	When the timer expires ( 5 minutes expiry ), the time should be displayed in “Red Text”. The button label should change from “Start” to “Reset”.
- 
+Assumption: A supported browser is being used.
+
+Test Steps:
+
+Run the page.
+If the user clicks the stat button,the timer starts its count.
+Now  the ‘Pause’ button is enabled.
+If the user wants to stop it, Pause button can be used.
+if the time expires at five minutes, Reset button will be enabled.
+Now the user clicks the reset button,it will change into Start button and the above process is repeated.
+Expected Result: A page displaying with Timer having all enabled functions.
